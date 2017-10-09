@@ -1,0 +1,39 @@
+<div class="outer-wrapper">
+	<div class="row chartTitle">
+		A live export voyage from Adelaide to Qatar and the UAE
+	</div>
+	<div class="row caption">
+		This graphic shows the temperature conditions day-by-day for <a href="https://www.agriculture.gov.au/export/live-animals/livestock/regulatory-framework/compliance-investigations/investigations-mortalities/report-46" target="_blank">a ship that took sheep to Qatar and the UAE In August 2013</a>. The ship encountered high temperatures resulting in more deaths than usual.
+	</div>
+	<div class="row" id="textSummary">
+		<div class="col30" id="dayText">
+			Day: <span id="dayNumber">1</span>
+		</div>
+		<div class="col30" id="deadText">
+			Total sheep dead: <span id="deadNumber">1</span>
+		</div>
+	</div>
+	<div class="row">
+		<div id="slider">
+			<input id="sliderbot" max="23" min="0" step="1" type="range" value="0">
+			<div></div>
+		</div>
+		<div class="caption left">
+			Beginning
+		</div>
+		<div class="caption right">
+			End
+		</div>
+	</div>
+	<div class="subTitle row">
+		Average ship temperature
+	</div>
+	<div class="row" id="tempContainer"></div>
+	<div class="subTitle row" id="squareHeader">
+		Cumulative total of <span class="deadSpan">dead sheep</span> v <span class="liveSpan">live sheep</span>. Each ■ is equal to ten sheep
+	</div>
+	<div class="row" id="squaresContainer"></div>
+	<div class="row caption right">
+		Source: Department of Agriculture
+	</div>
+</div>
